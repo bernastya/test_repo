@@ -1,0 +1,12 @@
+body {
+    font-size: 24px;
+}
+span.red {
+    color: red;
+}
+span.green {
+    color: green;
+}
+p.bold {
+    font-weight: bold;
+}

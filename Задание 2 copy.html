@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №2</title>
+    <link rel="stylesheet" href="Задание 2.css">
+</head>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p class="green">Это красный текст</p>
+Смысл текста не отражает его внешний вид.
+Проблема — в неверном значении атрибута 
+class и отсутствии тега <style></style>
+Должно быть:
+<p class="red" style="color: red">Это красный текст</p>
+<p class="red" style="color:green">Это тоже красный текст</p>
+Смысл текста не отражает его внешний вид.
+Проблема — в неверном значении атрибута 
+color
+Должно быть:
+<p class="red" style="color: red">Это тоже красный текст</p>
+<p class="italic">Это полужирный текст</p>
+Смысл текста не отражает его внешний вид. 
+Проблема - в неверном значении атрибута class
+Должно быть:
+<p class="bold">Это полужирный текст</p>
+<p class="bold">Это <i>тоже полужирный</i> текст</p>
+Смысл тексат не отражает его внешний вид.
+Проблема в неправильном применении тега <i></i> (он здесь не нужен)
+Должно быть:
+<p class="bold">Это тоже полужирный текст </p>
+<p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+<ul>
+    <li color="green">Элемент списка</li>
+    Смысл текста не отражает его внешний вид
+    Проблема внеправильном применении атриута color (Здесь должен быть style)
+    Доолжно быть:
+    <li style="color: blue;">Элемент списка</li>
+        <ol>
+            <li color="red">Первый элемент подсписка</li>
+             Смысл текста не отражает его внешний вид
+    Проблема в неправильном применении атриута color (Здесь должен быть style)
+Должно быть:
+<li style="color:yellow">Первый элемент подсписка</li>
+            <li style="color:red">Второй элемент подсписка</li>
+        </ol>
+    <li style="color:green">Ещё один элемент списка</li>
+<p><span class="xxsmall">В</span> <span font-size="xsmall">этом</span>
+    <b class="medium">абзаце</b> <span class="xlarge">все</span> <span large>слова</span>
+    <span font="size=small">разного</span> <span size="xxlarge">размера</span></p>
+Смысл текста не отражает его внешний вид.
+Проблема в неправильнои применении атрибута class, свойства font-size, тега <b></b>, <span></span>
+Должно быть:
+<p><span class="xxsmall" font-size="10px">В</span> <span class="xxsmall" font-size="20px">этом</span>
+    <span class="medium" font-size="40px">абзаце</span> <span class="xlarge" font-size="60px">все</span> <span class="large" font-size="50px" >слова</span>
+    <span class="small" font-size="30px">разного</span> <span class="xxlarge" font-size="70px">размера</span></p>
+</ul>
+</body>
+</html>

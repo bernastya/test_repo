@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №3*</title>
+    <link rel="stylesheet" href="Задание 3.css">
+</head>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p class="red" style="color:blue">Это красный текст</p>
+Смысл текста не отражает его внешний вид.
+Проблема — в неверном значении атрибута color
+При этом в CSS указано:
+.red { color: green; }
+Должно быть:
+<p class="red" style="color: red">Это красный текст</p>
+<p class="green" style="color:red">Это зелёный текст</p>
+Смысл текста не отражает его внешний вид
+Проблема - в неверном занчении атрибута Color
+При этом в CSS указано:
+.green { color: blue}
+Должно быть:
+<p class="green" style="color: green">Это зелёный текст</p>
+<p class="italic">Этот текст написан курсивом</p>
+Смысл текста не отражает его внешний вид
+Проблема в неправильном применении атрибута class. В css неправильно указано свойство {.italic font-weight: italic}
+Должно быть:
+<p class="italic" font-style="italic">Этот текст написан курсивом</p>
+<p class="bold">Это <i>полужирный</i> текст</p>
+Смысл текста не отражает его внешний вид
+Проблема в неправильном применении тегов <i></i>
+Проблема в неправильном применении атрибута class.В css неправильно указано свойство {.bold font-style: bold}
+Должно быть: 
+<p class="bold" font-weign="bold">Это полужирный текст</p>
+<ul>
+    <li class="green" style="color:red">Этот элемент списка зелёный</li>
+    Смысл текста не отражает его внешний вид.
+Проблема — в неверном значении атрибута color
+При этом в CSS указано:
+li.green { color: rad; }
+Должно быть:
+     <li class="green" style="color: green">Этот элемент списка зелёный</li>
+    <ol>
+        <li class="red" style="color:blue">Этот элемент подсписка красный</li>
+    Смысл текста не отражает его внешний вид
+Проблема - в неверном занчении атрибута Color
+При этом в CSS указано:
+ul ol li.red  {color: cyan;}
+Должно быть:
+     <li class="red" style="color: red">Этот элемент подсписка красный</li>
+        <li class="blue">Этот элемент подсписка синий</li>
+  Смысл текста не отражает его внешний вид
+Проблема - в неверном занчении атрибута Color
+При этом в CSS указано:
+ul ol li.blue  {color: magenta;}
+Должно быть:
+ <li class="blue" style="color: blue">Этот элемент подсписка синий</li>
+    </ol>
+</ul>
+</body>
+</html>
